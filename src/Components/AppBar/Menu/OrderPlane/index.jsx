@@ -47,7 +47,7 @@ const OrderPalne = () => {
                         borderRadius:"0"
                     }}
                     >
-                        Khứ hồi
+                        Khứ 
 
                     </Button>
                 </Box>
