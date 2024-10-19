@@ -29,10 +29,13 @@ const AppBarComponent = () => {
         }}
         >
             <Box sx={{ display:"flex",alignItems:"center" }}>
-            <img src="https://cdn6.agoda.net/images/MVC/default/agoda-logo-v2.png"
-            
+                <Button href="/account/OrderPalne">
+                <img src="https://cdn6.agoda.net/images/MVC/default/agoda-logo-v2.png"
             style ={{height: "40px", marginRight:"16px"}}
+            
             />
+                </Button>
+            
             <Button href="/account/OrderPalne" sx={{color:"#000", textTransform:"none",fontSize:16}}>
             Máy Bay + K.sạn
             </Button>

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Typography,Box,TextField, Button, Checkbox, FormControlLabel, IconButton } from "@mui/material";
 import { FlightTakeoff, FlightLand, DateRange, People } from '@mui/icons-material'
 import SwapHorizOutlinedIcon from '@mui/icons-material/SwapHorizOutlined';
+import Location from "../../../../Home/location";
+import PromotionStay from "../../../../Home/promotionStay";
 const OrderAirPlane = () => {
   const [flightType, setFlightType] = useState("one-way");
   const [fromLocation, setFromLocation] = useState(""); // State for "Bay từ"
@@ -156,7 +158,8 @@ const OrderAirPlane = () => {
     
  
     </Box>
-   
+              <Location/>
+              <PromotionStay/>
     </>
   );
 };
