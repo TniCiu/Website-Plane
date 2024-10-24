@@ -84,8 +84,7 @@ const Tour =() =>{
             key={index}
             variant={seclectedCity === city ? "contained" : "outlined"}
             onClick={() => setSeclectedCity(city)}
-            sx={seclectedCity === city ? { backgroundColor: "#1976d2", color: "white" } : {}}
-            >
+            sx={seclectedCity === city ? { backgroundColor: "#1976d2", color: "white" } : {}}>
             {city}
             </Button>
         ))}
