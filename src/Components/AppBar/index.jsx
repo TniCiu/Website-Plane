@@ -39,7 +39,7 @@ const AppBarComponent = () => {
             <Button href="/account/OrderPalne" sx={{color:"#000", textTransform:"none",fontSize:16}}>
             Máy Bay + K.sạn
             </Button>
-            <Button sx={{color:"#000", textTransform:"none",fontSize:16}}>
+            <Button href="/account/Tour" sx={{color:"#000", textTransform:"none",fontSize:16}}>
             Chỗ ở
             </Button>
             <Button sx={{color:"#000", textTransform:"none",fontSize:16}}>
